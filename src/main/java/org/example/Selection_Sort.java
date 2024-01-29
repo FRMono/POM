@@ -13,12 +13,12 @@ import java.util.Scanner;
  */
 
 public class Selection_Sort {
-    private int[] array;
+    private int[] array = {5};
     private int nElems;
 
     public Selection_Sort(int max) {
         array = new int[max];
-        nElems = 0;
+        nElems = 5;
     }
 
     public static void selection_Sort(int[] array) {
@@ -51,6 +51,9 @@ public class Selection_Sort {
 
     public void display() {
         System.out.println(Arrays.toString(array));
+    }
+    public int[] getArray() {
+        return array;
     }
 }
 
