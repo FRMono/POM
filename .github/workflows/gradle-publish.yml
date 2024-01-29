@@ -9,7 +9,7 @@ name: Maven Package
 
 on:
   push:
-    branches: (Selection_Sort)
+    branches: (main)
 
 jobs:
   build:
